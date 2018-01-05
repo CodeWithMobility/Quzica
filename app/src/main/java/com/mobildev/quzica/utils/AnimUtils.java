@@ -10,7 +10,7 @@ import android.view.animation.AccelerateInterpolator;
  */
 
 public class AnimUtils {
-    private static int counter = 0;
+
 
 
     public static void alphaAnimation(View holder) {
