@@ -1,7 +1,5 @@
 package com.mobildev.quzica;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
 import android.graphics.Color;
 import android.os.Build;
@@ -69,19 +67,7 @@ public class DetailActivity extends AppCompatActivity {
         ObjectAnimator anim = ObjectAnimator.ofFloat(profileHeaderView,"alpha",0.1f);
         anim.setDuration(200); // duration 3 seconds
         anim.start();
-        anim.addListener(new AnimatorListenerAdapter() {
-            @Override
-            public void onAnimationCancel(Animator animation) {
-                super.onAnimationCancel(animation);
-            }
-
-            @Override
-            public void onAnimationEnd(Animator animation) {
-                super.onAnimationEnd(animation);
-                ActivityCompat.finishAfterTransition(DetailActivity.this);
-            }
-        });
-
+        ActivityCompat.finishAfterTransition(DetailActivity.this);
 
     }
 
