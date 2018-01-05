@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quzica</string>
+    <string name="transition">transit</string>
+    <string name="titletransition">titletransit</string>
+    <string name="commentstransition">commenttransit</string>
+    <string name="favoritetransition">favoritetransit</string>
+    <string name="viewtransition">viewtransit</string>
+    <string name="commentsIMGtransition">commentIMGtransit</string>
+    <string name="favoriteIMGtransition">favoriteIMGtransit</string>
+    <string name="viewIMGtransition">viewIMGtransit</string>
+
+    <string name="q1">What is Android?</string>
+    <string name="q2">What are the advantages of android?</string>
+    <string name="q3">Does android support other language than java?</string>
+    <string name="q4">What are the life cycle methods of android activity?</string>
+    <string name="q5">What is explicit intent in android?</string>
+    <string name="q6">What is ADB?</string>
+    <string name="q7">Which language does Android support to develop an application?</string>
+    <string name="q8">What do you mean by a drawable folder in Android?</string>
+    <string name="q9">What are the basic tools used to develop an android app?</string>
+    <string name="ans">Android is an open-source, linux-based operating system that is used in mobiles, tablets, televisions etc.
+    Android is an open-source, linux-based operating system that is used in mobiles, tablets, televisions etc.
+    Android is an open-source, linux-based operating system that is used in mobiles, tablets, televisions etc.</string>
+</resources>
