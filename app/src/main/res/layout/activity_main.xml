@@ -11,10 +11,12 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:orientation="horizontal"
+    android:gravity="center"
     android:layout_height="56dp">
     <ImageView
         android:layout_width="25dp"
-        android:src="@drawable/icon_search"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/navmenuicon"
         android:layout_height="25dp" />
     <TextView
         android:id="@+id/textView"
@@ -29,6 +31,7 @@
         android:text="Quzica" />
     <ImageView
         android:layout_width="25dp"
+        android:layout_marginRight="16dp"
         android:src="@drawable/icon_search"
         android:layout_height="25dp" />
 
